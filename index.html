@@ -63,19 +63,19 @@
     .buttons{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
+        grid-gap: 25px;
         margin-top: 40px;
-        border-width: 1px;
+        border-width: 2px;
         border-color: rgb(255, 0, 170);
     }
     .buttons input[type="button"] {
         font-size: 25px;
         padding: 15px;
-        border-width: 1px;
+        border-width: 2px;
         border-color: rgb(174, 0, 255);
         background-color: rgb(255, 217, 246);
         font-weight: bold;
-        color: rgb(34, 146, 250);
+        color: rgb(0, 217, 255);
         cursor: pointer;
         border-radius: 5px;
     }
@@ -87,14 +87,26 @@
         grid-row: span 2;
         background-color: pink;
         color:rgb(255, 43, 184);
-        border-width: 1.5px;
+        border-width: 2px;
     }
-    
+
+    input[type="button"]#clear {
+        background-color: rgb(255, 247, 180);
+        color:rgb(111, 0, 255);
+        border-width: 2px;
+    }
+
+    input[type="button"]#erase {
+       background-color: rgb(255, 247, 180);
+       color:rgb(111, 0, 255);
+       border-width: 2px;
+   }
+
     input[type="button"][value="0"] {
         grid-column: span 2;
         background-color: pink;
         color:rgb(255, 43, 184);
-        border-width: 1.5px;
+        border-width: 2px;
     }
     </style>
 </head>
@@ -106,9 +118,9 @@
         </div>
         <div class="buttons">
             <!-- full erase-->
-            <input type="button" value="AC" id="clear"/>
+            <input type="button" value="X" id="clear"/>
             <!-- erase -->
-            <input type="button" value="Del" id="erase"/>
+            <input type="button" value="C" id="erase"/>
             <input type="button" value="/" class="input-button" />
             <input type="button" value="*" class="input-button" />
 
