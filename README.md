@@ -1,6 +1,6 @@
 # javascript-calculator-app
  
-[Calculator App](www.hiratsuna.github.io/javascript-calculator-app/)
+[Calculator App](https://www.hiratsuna.github.io/javascript-calculator-app/)
 with *Javascript, CSS, HTML*
 
 
